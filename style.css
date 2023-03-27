@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    font-family: libre Baskerville, serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+nav{
+    background-color: #e9e9e8;
+    border-bottom: solid 2px rgb(5, 5, 5);
+}
+footer{
+    background-color: cadetblue;
+    background-image: url(images/image-logo\ -\ Copie.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    margin-top: 5%;
+    color: whitesmoke;
+}
+footer a{
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+.bandeau{
+    height:auto;
+    background-color: rgb(223, 223, 225);
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 0.5%;
+    color: rgb(9, 9, 9);
+}
+h2, h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 0.5%;
+    color: rgb(7, 7, 7);
+}
+h6{
+    font-size: 1.2rem;
+    padding: 0.5%;
+}
+#presentation{
+    font-size: 2rem;
+    padding: 2%;
+    background-color: whitesmoke;
+}
+#presentation h2, h4{
+    font-size: 2.5rem;
+    color: cadetblue;
+}
+#presentation1{
+    font-size: 2rem;
+    padding: 2%;
+    background-color:  gainsboro;
+}
+#presentation1 h2, h4{
+    font-size: 2.5rem;
+}
+.tel{
+    display: none;
+    
+}
+.card{
+    
+    width: 14rem;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+.card-title{
+    font-size: 1.8rem;
+    margin-left: 15%;
+    color: cadetblue;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+.card-text{
+    font-size: 1.2rem;
+    margin-left: 5%;
+}
+#prod-ac{
+    font-size: 3rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.boutique{
+    margin-top: 2%;
+}
+#boutique1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+}
+#titre{
+    color: black;
+}
+/*fiche-produit*/
+.prod-fiche{
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.fiche{
+    padding: 1%;
+    font-size: 1.3rem;
+}
+.commentaire{
+    padding: 1%;
+    margin: 5%;
+}
+.star {
+    color: yellow;
+    font-size: 2rem;
+  }
+  #pagi{
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color:  gainsboro;
+  }
+  .page-link{
+    color: black;
+  }
+  /*boutique détail*/
+  .tableau{
+    margin:1%;
+  }
+  .ab{
+    background-color: cadetblue;
+    color: whitesmoke;
+  }
+  /*add-product*/
+  #add-product{
+    margin: 1%;
+    width: 98%;
+    border-radius: 20px;
+  }
+  /*messagerie*/
+  #tab{
+    background-color: cadetblue;
+    color: whitesmoke;
+  }
+  /*slide card*/
+
+
+@media screen and (max-width:768.98px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    #prod-ac{
+        font-size: 2rem;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .tel {
+        display: block;
+
+    }
+    .tel h4 h5 p{
+        color: cadetblue;
+        font-size: 2rem;
+    }
+    header{
+        display: none;
+    }
+    #logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 15%;
+        border-radius: 50px;
+    }
+    .pal{
+        display: none;
+    }
+    .pipe{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 5%;
+        display: inline;
+    }
+    #lucifer{
+        width: 50%;
+        background-color: cadetblue;
+        color: whitesmoke;
+        margin-left: 25%;
+    }
+    #abel{
+        background-color: cadetblue;
+        color: whitesmoke;
+    }
+    
+    .all{
+        color: whitesmoke;
+        background-color:cadetblue;
+        text-align: center;
+        margin-left: 40%;
+        padding: 1%;
+    }
+    #titre{
+        color:cadetblue;
+        font-size: 2.2rem;
+    }
+    /*navbar*/
+    .nav-item{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    #presentation{
+        font-size: 1.5rem;
+        padding: 1%;
+        text-align: center;
+        background-color: gainsboro;
+    }
+    #presentation h2, h4{
+        font-size: 1.6rem;
+    }
+    #presentation1{
+        font-size: 1.2rem;
+        padding: 2%;
+        text-align: center;
+    }
+    #presentation1 h2, h4{
+        font-size: 1.6rem;
+    }
+    .bandeau{
+        display: none;
+        height: 50%;
+        background-color: rgb(223, 223, 225);
+        color: whitesmoke;
+    }
+    #boutique1{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }
+    #next{
+        background-color:  gainsboro;
+    }  
+    /*vendeur*/
+  #dash{
+      margin: 1%;
+      width: 95%;
+      border-radius: 20px;
+  }
+  #dash1{
+    border-radius: 10px;
+  }
+  #add-product{
+    margin: 1%;
+    width: 95%;
+    border-radius: 20px;
+  }
+  /*cards*/
+  .card{
+    width: 180px;
+    height: 160px;
+    display: block;
+    margin-left: 2%;
+    margin-bottom: 5px;
+}
+.star {
+    color: yellow;
+    font-size: 0.8rem;
+  }
+#vendeur{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin-left: 2%;
+    margin-bottom: 5px;
+}
+.card-img-top {
+        width: 100%;
+        height: 60%;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+      }
+#ima{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+
+.card-title{
+    font-size: 0.9rem;
+    margin-left: 5%;
+    color: cadetblue;
+}
+#tit{
+    font-size: 0.9rem;
+    margin-left: 5%;
+    color: cadetblue;
+}
+.card-body{
+    background-color: whitesmoke;
+    height: 40%;
+    border-radius: 10px;
+}
+#bo{
+    background-color: whitesmoke;
+    height: 40%;
+    border-radius: 10px;
+}
+.card p{
+    font-size: 0.9rem;
+    margin-left: 1%;  
+}
+.fiche{
+    padding: 1%;
+    font-size: 0.9rem;
+    background-color: whitesmoke;
+}
+.fiche h2{
+    color: cadetblue;
+    font-size: 2rem;
+}
+}
